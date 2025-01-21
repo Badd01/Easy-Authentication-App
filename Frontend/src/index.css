@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    background: #222;
+}
+
+/* Form */
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card {
+    background: linear-gradient(90deg, #00feba, #5b548b);
+    width: min(470px, 90%);
+    margin: 100px auto;
+    padding: 40px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.card label {
+    font-size: 1.25rem;
+}
+
+.card div {
+    display: flex;
+    margin: 10px 0;
+    flex-direction: column;
+}
+
+.card input {
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+button {
+    background-color: #ebfffc;
+    border-radius: 10px;
+    width: 80px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+    transform: transition;
+}
+
+button:hover {
+    background-color: blue;
+    transition: background-color 0.5s;
+    color: white;
+}
+
+
+a {
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: red
+}
+
+/* Welcome */
+.container {
+    width: min(1440px, 90%);
+    height: 100vh;
+    background: aqua;
+    margin: auto;
+    border-radius: 10px;
+    justify-items: center;
+}
+
+.container p {
+    font-size: 1.25rem;
+}
